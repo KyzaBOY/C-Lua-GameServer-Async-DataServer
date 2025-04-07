@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{68fa2832-3f34-4316-8674-6faf5ff7ae04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party">
+      <UniqueIdentifier>{a8717562-34b6-407f-b267-5bb504bec9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\lua">
+      <UniqueIdentifier>{c82219c5-d046-4e82-8f22-65e85aa6bcc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{557dca83-708b-4458-9b77-f8929599b386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\network">
+      <UniqueIdentifier>{9c1117f6-cec3-4675-821f-2d91f1c7813b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\packets">
+      <UniqueIdentifier>{87d20bdc-eb87-4ac3-adde-94d629fd03a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gameserver.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="luabidings.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer.cpp">
+      <Filter>src\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpserver.cpp">
+      <Filter>src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="udpserver.cpp">
+      <Filter>src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer_manager.cpp">
+      <Filter>src\packets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="thirdparty\lua\lauxlib.h">
+      <Filter>third-party\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\lua\lua.h">
+      <Filter>third-party\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\lua\lua.hpp">
+      <Filter>third-party\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\lua\luaconf.h">
+      <Filter>third-party\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\lua\luajit.h">
+      <Filter>third-party\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\lua\lualib.h">
+      <Filter>third-party\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer.h">
+      <Filter>src\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpserver.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="udpserver.h">
+      <Filter>src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="luabidings.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="gameserver.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer_manager.h">
+      <Filter>src\packets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="thirdparty\lua\lua51.lib">
+      <Filter>third-party\lua</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
