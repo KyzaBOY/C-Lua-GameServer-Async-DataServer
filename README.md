@@ -109,3 +109,32 @@ SendPacket(label, param, resultString)   -- Send async result back to GameServer
 -- Debug
 LogText("Hello world")
 
+## ✍️ Notes
+
+label and param are always max 10 characters and padded with spaces ("label ").
+
+You must trim them in Lua using string.gsub(label, "%s+$", "") or similar before using.
+
+This system is designed to be modular, scalable and readable.
+
+## 📦 Why use this system?
+
+## 🧠 Clean separation of game logic and database
+
+## 📜 Full Lua control over gameplay
+
+## 🚀 Real asynchronous SQL communication via UDP
+
+## 🛠️ Easily extendable, open-source, and readable
+
+## 🔁 Hot-reload of Lua scripts in real time
+
+## 📌 License:
+
+This project is licensed under the MIT License.
+Use it, modify it, and share it freely. Attribution is appreciated!
+
+## ❤️ Final thoughts
+This is a personal project that evolved into something modular and solid.
+If it helps you, feel free to star, fork, or contribute.
+Feedback is welcome — and if you use it in your game, let me know!
