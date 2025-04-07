@@ -120,11 +120,16 @@ This system is designed to be modular, scalable and readable.
 ## 📦 Why use this system?
 
 🧠 Clean separation of game logic and database
+
 📜 Full Lua control over gameplay
+
 🚀 Real asynchronous SQL communication via UDP
+
 🛠️ Easily extendable, open-source, and readable
+
 🔁 Hot-reload of Lua scripts in real time
-📌 License:
+
+## 📌 License:
 
 This project is licensed under the MIT License.
 Use it, modify it, and share it freely. Attribution is appreciated!
